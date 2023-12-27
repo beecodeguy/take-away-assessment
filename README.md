@@ -12,22 +12,22 @@ Thank you for your interest in the Frontend Developer position at our company. A
 
 For this assessmennt, we want you to create a simple application with two pages using NextJs. Requirements are stated as follows:
 
-** Create a web application that displays a list of blog posts. Each blog post should have a title, author, and content. The application should have the following features:
+** Create a web application that displays a list of post posts. Each post post should have a title, author, and content. The application should have the following features:
 
 ### Pages:
-- Create a homepage that displays a list of blog post titles. (you can show case your design here)
-- Implement a dynamic route for individual blog posts. Clicking on a title should take the user to the corresponding blog post page.
+- Create a homepage that displays a list of post post titles. (you can show case your design here)
+- Implement a dynamic route for individual post posts. Clicking on a title should take the user to the corresponding post post page.
 
-  ** Fetch blog post data from a mock API or use a service like JSONPlaceholder (https://jsonplaceholder.typicode.com/) for sample data.
+  ** Fetch post post data from a mock API or use a service like JSONPlaceholder (https://jsonplaceholder.typicode.com/) for sample data.
 
 ## Features
 ### Search Feature:
-- Implement a search functionality that allows users to search for blog posts based on the title or author.
+- Implement a search functionality that allows users to search for post posts based on the title or author.
 - Display search results dynamically as the user types.
 
 ### Charts:
 Integrate a charting library (e.g., Chart.js, D3.js, or any other of your choice).
-Create a chart that visualizes data related to the blog posts. For example, you could create a chart showing the distribution of posts by author.
+Create a chart that visualizes data related to the post posts. For example, you could create a chart showing the distribution of posts by author.
 ** Or you may show the charts for any other random data from any `mock api` like `weather changes` `stock price changes` over time
 
 ### Additional Considerations:
@@ -36,7 +36,7 @@ Customize the chart's appearance and make it responsive.
 
 ## Bonus
 ### Authentication
-- Implement a basic authentication system. Users should be able to log in and view additional features, such as the ability to create and edit blog posts.
+- Implement a basic authentication system. Users should be able to log in and view additional features, such as the ability to create and edit post posts.
 
 ## Submission
 
