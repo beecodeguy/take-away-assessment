@@ -1,67 +1,42 @@
 # take-away-assessment
 
-Thank you for your interest in the Frontend Developer position at our company. As part of our hiring process, we would like you to complete a take-home test to assess your skills in building a fully-functional frontend application using ReactJs/NextJs.
+Thank you for your interest in the Frontend Developer position at our company. As part of our hiring process, we would like you to complete a take-home test to assess your skills in building a fully-functional frontend application using NextJs.
+
+## Tools to use:
+- NextJs (app router)
+- shadcn/ui
+- Typescript
+- any charting library
 
 ## Instructions
 
-For this assessmennt, we want you to create a simple application with two pages using ReactJs/NextJs. Requirements are stated as follows:
+For this assessmennt, we want you to create a simple application with two pages using NextJs. Requirements are stated as follows:
 
-### First Page: Bitcoin (BTC) Price Index page
-Build a page that displays the current BTC price index, as provided by this [Rest API](https://api.coindesk.com/v1/bpi/currentprice.json)
+** Create a web application that displays a list of blog posts. Each blog post should have a title, author, and content. The application should have the following features:
 
-- Page should contain price details of USD, GBP and EUR currencies, refreshed at a default interval of 5 seconds.
-- Page must include feature to allow user choose between different data refresh intervals
-- Page must support feature to allow user toggle on/off some of the currencies displayed.
-- Page must remember user preferences for the features on-page.
+### Pages:
+- Create a homepage that displays a list of blog post titles. (you can show case your design here)
+- Implement a dynamic route for individual blog posts. Clicking on a title should take the user to the corresponding blog post page.
 
-Here's a sample of the data provided by the API:
+  ** Fetch blog post data from a mock API or use a service like JSONPlaceholder (https://jsonplaceholder.typicode.com/) for sample data.
 
-```JSON
-{
-  "time": {
-    "updated": "Jul 11, 2023 09:56:00 UTC",
-    "updatedISO": "2023-07-11T09:56:00+00:00",
-    "updateduk": "Jul 11, 2023 at 10:56 BST"
-  },
-  "disclaimer": "This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org",
-  "chartName": "Bitcoin",
-  "bpi": {
-    "USD": {
-      "code": "USD",
-      "symbol": "&#36;",
-      "rate": "30,428.4059",
-      "description": "United States Dollar",
-      "rate_float": 30428.4059
-    },
-    "GBP": {
-      "code": "GBP",
-      "symbol": "&pound;",
-      "rate": "25,425.7326",
-      "description": "British Pound Sterling",
-      "rate_float": 25425.7326
-    },
-    "EUR": {
-      "code": "EUR",
-      "symbol": "&euro;",
-      "rate": "29,641.7099",
-      "description": "Euro",
-      "rate_float": 29641.7099
-    }
-  }
-}
-```
+## Features
+### Search Feature:
+- Implement a search functionality that allows users to search for blog posts based on the title or author.
+- Display search results dynamically as the user types.
 
-### Second Page: NFT List page
-We want you to build a simple page that lists the NFTs owned by a connected user's wallet.
-- Page should display NFT basic details as well as NFT metadata (if available)
-  - This includes (but not limited to): name, description, token id, image, smart contract address, etc
-- That's all!
+### Charts:
+Integrate a charting library (e.g., Chart.js, D3.js, or any other of your choice).
+Create a chart that visualizes data related to the blog posts. For example, you could create a chart showing the distribution of posts by author.
+** Or you may show the charts for any other random data from any `mock api` like `weather changes` `stock price changes` over time
 
-If you'd need testnet NFTs for testing, do let us know. Also, please feel free to use a style library of your choice (Material UI, Tailwind CSS, etc)
+### Additional Considerations:
+Ensure a smooth user experience when using the search feature.
+Customize the chart's appearance and make it responsive.
 
-#### Blockchain Network for NFT
-- Network name: Sepolia
-- Chain ID: 11155111
+## Bonus
+### Authentication
+- Implement a basic authentication system. Users should be able to log in and view additional features, such as the ability to create and edit blog posts.
 
 ## Submission
 
@@ -75,7 +50,6 @@ We will evaluate your submission based on the following criteria:
 - Code quality: Is the code well-structured, easy to read, and maintainable?
 - Functionality: Does the application meet the requirements specified above?
 - Aesthetics: Is the UI/UX appealing to users?
-- Testing: Does the backend have appropriate tests in place?
 - Documentation: Is the code well-documented and easy to understand?
 
 ## Questions
